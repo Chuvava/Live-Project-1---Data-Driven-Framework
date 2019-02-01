@@ -24,6 +24,8 @@ public class AddCustomerTest extends TestBase {
 
         alert.accept();
 
+        Assert.fail("Failed it just for test");
+
     }
 
     @DataProvider

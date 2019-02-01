@@ -1,6 +1,9 @@
 package com.w2a.base;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import com.w2a.utilities.ExcelReader;
+import com.w2a.utilities.ExtentManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -41,6 +44,8 @@ public class TestBase {
     public static ExcelReader excel = new ExcelReader(userDir + "\\src\\test\\resources\\excel\\testdata.xlsx");
 //    public static final String testDataExcelFileName = "testdata.xlsx";
     public static WebDriverWait wait;
+    public ExtentReports rep = ExtentManager.getInstance();
+    public static ExtentTest test;
 
     @BeforeSuite
     public void setUp() throws IOException {
