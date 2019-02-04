@@ -1,6 +1,7 @@
-01/02/2019 17:35:21 devpinoyLogger Config file loaded!
-01/02/2019 17:35:21 devpinoyLogger OR file loaded!
-01/02/2019 17:35:24 devpinoyLogger Chrome launched!
-01/02/2019 17:35:26 devpinoyLogger Navigated to : http://way2automation.com/angularjs-protractor/banking/#/login
-01/02/2019 17:35:27 devpinoyLogger Inside Login Test
-01/02/2019 17:35:32 devpinoyLogger Test execution completed !!!
+04/02/2019 14:49:54 devpinoyLogger Config file loaded!
+04/02/2019 14:49:54 devpinoyLogger OR file loaded!
+04/02/2019 14:49:58 devpinoyLogger Chrome launched!
+04/02/2019 14:49:59 devpinoyLogger Navigated to : http://way2automation.com/angularjs-protractor/banking/#/login
+04/02/2019 14:50:03 devpinoyLogger Inside Login Test
+04/02/2019 14:50:06 devpinoyLogger Login successfully executed
+04/02/2019 14:50:15 devpinoyLogger Test execution completed !!!

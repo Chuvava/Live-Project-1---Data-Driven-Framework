@@ -21,6 +21,6 @@ public class TestProperties {
         fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\OR.properties");
         OR.load(fis);
 
-        System.out.println(OR.getProperty("bmlBtn"));
+        System.out.println(OR.getProperty("bmlBtn_XPATH"));
     }
 }
